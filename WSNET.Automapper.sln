@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSNET.Automapper.Domain", "WSNET.Automapper.Domain\WSNET.Automapper.Domain.csproj", "{EDF17624-653F-4738-BB07-8A45B7A7282C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSNET.Automapper.Application", "WSNET.Automapper.Application\WSNET.Automapper.Application.csproj", "{890380A1-B56B-4FB0-A4CA-C1911BF6CD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSNET.Automapper.CrossCutting", "WSNET.Automapper.CrossCutting\WSNET.Automapper.CrossCutting.csproj", "{64FAD974-F63B-482E-AC74-1017C81298EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSNET.Automapper.Api", "WSNET.Automapper.Api\WSNET.Automapper.Api.csproj", "{451518E2-B5A0-4E7F-90AE-84E3C08D706E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSNET.Automapper.Infrastructure.Data", "WSNET.Automapper.Infrastructure.Data\WSNET.Automapper.Infrastructure.Data.csproj", "{AB0412D6-6639-4B4F-A3D5-6DB1227E2F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF17624-653F-4738-BB07-8A45B7A7282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF17624-653F-4738-BB07-8A45B7A7282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF17624-653F-4738-BB07-8A45B7A7282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF17624-653F-4738-BB07-8A45B7A7282C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890380A1-B56B-4FB0-A4CA-C1911BF6CD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890380A1-B56B-4FB0-A4CA-C1911BF6CD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890380A1-B56B-4FB0-A4CA-C1911BF6CD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890380A1-B56B-4FB0-A4CA-C1911BF6CD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FAD974-F63B-482E-AC74-1017C81298EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FAD974-F63B-482E-AC74-1017C81298EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FAD974-F63B-482E-AC74-1017C81298EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FAD974-F63B-482E-AC74-1017C81298EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451518E2-B5A0-4E7F-90AE-84E3C08D706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451518E2-B5A0-4E7F-90AE-84E3C08D706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451518E2-B5A0-4E7F-90AE-84E3C08D706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451518E2-B5A0-4E7F-90AE-84E3C08D706E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0412D6-6639-4B4F-A3D5-6DB1227E2F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0412D6-6639-4B4F-A3D5-6DB1227E2F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0412D6-6639-4B4F-A3D5-6DB1227E2F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0412D6-6639-4B4F-A3D5-6DB1227E2F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8819B0E7-8DD2-4448-B366-18E35FF34BE0}
+	EndGlobalSection
+EndGlobal

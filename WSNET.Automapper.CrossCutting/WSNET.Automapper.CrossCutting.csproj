@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WSNET.Automapper.Application\WSNET.Automapper.Application.csproj" />
+    <ProjectReference Include="..\WSNET.Automapper.Domain\WSNET.Automapper.Domain.csproj" />
+    <ProjectReference Include="..\WSNET.Automapper.Infrastructure.Data\WSNET.Automapper.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
